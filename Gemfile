@@ -71,3 +71,5 @@ end
 
 gem "devise", "~> 4.9"
 gem 'rails_admin', '~> 3.0'
+gem "shakapacker", "7.0.1"
+gem "react_on_rails", "13.4"
