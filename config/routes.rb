@@ -2,8 +2,8 @@ Rails.application.routes.draw do
   get 'hello_world', to: 'hello_world#index'
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   devise_for :users
-  get 'home/index'
   get 'about', to: 'home#about'
+  get 'contact', to: 'home#contact'
   root 'home#index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
